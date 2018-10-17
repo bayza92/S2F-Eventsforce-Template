@@ -78,7 +78,7 @@
 {
     display: none;
     float: left;
-
+    cursor:pointer!important;
     height: 100%;
     min-height: 1px;
 }
@@ -342,7 +342,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: muli;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -540,7 +540,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Muli, Helvetica, Arial, sans-serif!important;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1392,7 +1392,8 @@ body {
   text-align: center;
   box-sizing: border-box;
   padding:50px 0;
-  background-image:url('http://s2fevents.co.uk/wp-content/uploads/2018/10/Textured-background-1.jpg');
+  /* background-image:url('http://s2fevents.co.uk/wp-content/uploads/2018/10/Textured-background-1.jpg'); */
+  background-color:#e20735;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1488,7 +1489,7 @@ body {
 
 #homepage-video-boxes {
   margin-top: 50px;
-  background: #cc1a1a;
+  background: #e20735;
   padding: 15px 0;
   min-height:350px;
   color:#fff!important;
